@@ -1,7 +1,46 @@
 /* Give your page a fun background color */
+body {
+  background-color: purple;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
 
+}
 /* Make the header and footer a different color from the background */
+header {
+  color: tomato;
+  font-family: cursive;
+  font-size: 24px;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  border-bottom-width: thin;
+}
 
+  h1{
+    text-align: center;
+    text-underline-position: under;
+  }
+
+p {
+  color: SlateBlue;
+  font-style: italic;
+  font-size: 26px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+img{
+  height: 500px;
+  width: 600px;
+border-style: solid;
+border-color: black;
+border-width: 3px;
+margin-left: 50px;
+vertical-align: text-bottom;
+}
+
+ul{
+  font-family: "Lucida Console", "Courier New", monospace;
+}
 /* Align the h1 containing your name in the center of the header*/
 
 /* Make your p tag a different color and italic */
