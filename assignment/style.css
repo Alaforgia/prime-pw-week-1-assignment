@@ -3,7 +3,6 @@ body {
   background-color: purple;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
-
 }
 /* Make the header and footer a different color from the background */
 header {
@@ -15,10 +14,10 @@ header {
   border-bottom-width: thin;
 }
 
-  h1{
-    text-align: center;
-    text-underline-position: under;
-  }
+h1 {
+  text-align: center;
+  text-underline-position: under;
+}
 
 p {
   color: SlateBlue;
@@ -28,18 +27,23 @@ p {
   text-align: center;
 }
 
-img{
+img {
   height: 500px;
   width: 600px;
-border-style: solid;
-border-color: black;
-border-width: 3px;
-margin-left: 50px;
-vertical-align: text-bottom;
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+  margin-left: 50px;
+  vertical-align: text-bottom;
 }
 
-ul{
+ul {
   font-family: "Lucida Console", "Courier New", monospace;
+}
+
+footer {
+  text-align: center;
+  
 }
 /* Align the h1 containing your name in the center of the header*/
 
